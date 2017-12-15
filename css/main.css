@@ -1,1 +1,49 @@
-/* Los estilos de tu proyecto */
+/* styles to reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* section become a driver */
+
+.drive-section {
+  background-image: url("../assets/images/conduce.jpg");
+  height: 60vh;
+  background-size: cover;
+  background-position: 0 50%;
+  align-items: center;
+}
+
+.white {
+  color: #fff;
+  background-color: #0000004d;
+  height: 100%;
+}
+
+.btn-color {
+  background-color: #f7b617;
+  border-color: #705109;
+}
+
+.btn-color:hover {
+  background-color: #dfa318;
+}
+
+.btn-send {
+  padding: 1rem;
+  background-color: #5bc0de;
+  width: 100%;
+  color: #fff;
+  font-weight: 800;
+}
+
+.center {
+  padding-top: 6rem;
+}
+
+.col-margin {
+  padding: 0;
+}

@@ -1,1 +1,93 @@
-<!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LabCar</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section class="drive-section container-fluid col-margin">
+    <div class="white col-xs-12 col-md-4 col-md-offset-8 ">
+      <div class="center">
+        <h2>Conduce cuando quieras</h2>
+        <p>LabCar es una opción flexible para alcanzar tus metas cuando quieras</p>
+
+        <!-- Button modal -->
+        <button type="button" class="btn btn-primary btn-lg btn-color" data-toggle="modal" data-target="#myModal">
+          Conviértete en conductor
+        </button>
+      </div>
+      <!-- modal become a driver -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+          <div class="modal-content black-white">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <h4 class="bold">¿Tienes vehículo de 4 puertas?</h4>
+                <select class="form-control" id="select1">
+                  <option>Si</option>
+                  <option>No</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <h4 class="bold">Marca</h4>
+                <select class="form-control" id="select2">
+                  <option>Elíge la marca del vehículo</option>
+                  <option>Honda</option>
+                  <option>Hunday</option>
+                  <option>Mazda</option>
+                  <option>Nissan</option>
+                  <option>Toyota</option>
+                  <option>Kia</option>
+                  <option>Volkswagen</option>
+                </select>
+                <p class="gray">¿No ves tu vehículo en la lista? Envía un correo electrónico a
+                  <a href="#">sociosmdv@uber.com</a>
+                </p>
+              </div>
+              <div class="form-group">
+                <h4 class="bold">Modelo</h4>
+                <select class="form-control" id="select3">
+                  <option>Modelo 1</option>
+                  <option>Modelo 2</option>
+                  <option>Modelo 3</option>
+                  <option>Modelo 4</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <h4 class="bold">Año</h4>
+                <select class="form-control" id="select4">
+                  <option>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                </select>
+              </div>
+              <div class="input-group matricula">
+                <h4 class="bold">Número de matrícula</h4>
+                <input type="text" class="form-control apellido" placeholder="Número de matrícula">
+                <p class="gray">La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+              </div>
+            </div>
+            <!-- footer send -->
+            <div class="modal-footer">
+              <div>
+                <button type="button" class="btn btn-send" data-dismiss="modal">ENVIAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
