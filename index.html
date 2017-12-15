@@ -1,116 +1,157 @@
 <html lang="en">
-    <!----------------------------------CABEZA-------------------------------------->
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>BOOTSTRAP-template</title>
-        <link rel="stylesheet" href="vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <!-------------------------------------CUERPO---------------------------------------->
-    <body>
-      <!--Barra de navegación-->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!--navegación movil-->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!--navegacion por PC imagen a la izquierda-->
-            <a class="navbar-brand" href="#"><img src="assets/images/logoForma.png" alt="logoForma"></a>
-          </div>
-          <!--permite que la barra de menu movil se contraiga y la informacion quede dentro-->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav"></ul>
-            <!--Navegación por PC botones a la derecha-->
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Viaja</a></li>
-              <li><a href="#">Conduce</a></li>
-              <li><a href="#">Inicia sesión</a></li>
-            </ul>
-          </div>
+  
+  <!----------------------------------CABEZA-------------------------------------->
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>BOOTSTRAP-template</title>
+      <link rel="stylesheet" href="vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+  <!-------------------------------------CUERPO---------------------------------------->
+  <body>
+    
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!--navegación movil-->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--navegacion por PC imagen a la izquierda-->
+          <a class="navbar-brand" href="#"><img src="assets/images/logoForma.png" alt="logoForma"></a>
         </div>
-      </nav>
-      <!--Imagen CARRO-->
-      <section class="logo-forma">
-        <!--caja contenida en la imagen version: MOVIL-->
-        <div class="comienza-a-viajar-movil col-xs-10">
-          <h2>Comienza a viajar<br>con <img class="logo-blanco" src="assets/images/logoBlanco.png" alt="logoBlanco"></h2>
-          <button type="button" class="btn btn-default btn-descarga-el-app">Descarga el app</button>
+        <!--permite que la barra de menu movil se contraiga y la informacion quede dentro-->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav"></ul>
+          <!--Navegación por PC botones a la derecha-->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Viaja</a></li>
+            <li><a href="#">Conduce</a></li>
+            <li><a href="#">Inicia sesión</a></li>
+          </ul>
         </div>
-        <!--caja contenida en la imagen version: DESKTOP-->
-        <div class="comienza-a-viajar-pc col-md-5">
-          <div>
-            <h2>Disfruta del viaje<br>Eres dueño de tu tiempo</h2>
-            <div class="top-h4"><h4>Viaja con <img class="logo-blanco" src="assets/images/logoBlanco.png" alt="logoBlanco"></h4></div>
-            <!--boton de registro con modal-->
-            <button type="button" class="btn btn-default btn-registrate" data-toggle="modal" data-target=".bs-example-modal-sm">REGÍSTRATE</button>
-            <!--modal 1-->
-            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-              <div class="modal-dialog modal-md" role="document">
-                <div class="modal-content">
-                  <div class="modal-header modal-header-one">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title modal-title-one" id="gridSystemModalLabel"><img class="user" src="assets/images/user.png" alt="user"></h4>
-                  </div>
-                  <div class="modal-body modal-body-one">
-                    <div class="col-sm-9 container-modal-body">
-                      <form>
-                        <div class="input-group input-group-one">
-                          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
-                          <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-                        </div>
-                        <div class="input-group input-group-one">
-                          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <button type="button" class="btn btn-warning btn-warning-one">LOGIN</button>
-                        <p>Forgot your password? <a href="#">Click Here</a></p>
-                      </form>
-                    </div>
+      </div>
+    </nav>
+
+    <!--Imagen CARRO-->
+    <section class="logo-forma">
+
+      <!--caja contenida en la imagen version: MOVIL-->
+      <div class="comienza-a-viajar-movil col-xs-10">
+        <h2>Comienza a viajar<br>con <img class="logo-blanco" src="assets/images/logoBlanco.png" alt="logoBlanco"></h2>
+        <button type="button" class="btn btn-default btn-descarga-el-app">Descarga el app</button>
+      </div>
+      <!--caja contenida en la imagen version: DESKTOP-->
+      <div class="comienza-a-viajar-pc col-md-5">
+        
+        <div>
+          <h2>Disfruta del viaje<br>Eres dueño de tu tiempo</h2>
+          <div class="top-h4">
+            <h4>Viaja con <img class="logo-blanco" src="assets/images/logoBlanco.png" alt="logoBlanco"></h4>
+          </div>
+          <!--boton de registro con modal-->
+          <button type="button" class="btn btn-default btn-registrate" data-toggle="modal" data-target=".bs-example-modal-sm">REGÍSTRATE</button>
+          <!--modal 1-->
+          <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content modal-content-one">
+                <div class="modal-header modal-header-one">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title modal-title-one" id="gridSystemModalLabel"><img class="user" src="assets/images/user.png" alt="user"></h4>
+                </div>
+                <div class="modal-body modal-body-one">
+                  <div class="col-sm-9 container-modal-body">
+                    <form>
+                      <div class="input-group input-group-one">
+                        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="input-group input-group-one">
+                        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <button type="button" class="btn btn-warning btn-warning-one">LOGIN</button>
+                      <p>Forgot your password? <a href="#">Click Here</a></p>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
-          <hr class="col-md-3"><div class="col-md-4 letter">O bien</div><hr class="col-md-3">
-          <button type="button" class="btn btn-default btn-conviertete">Conviértete en conductor</button>
         </div>
-      </section>
-      <!--Imagen CELULAR-->
+        <hr class="col-md-3"><div class="col-md-4 letter">O bien</div><hr class="col-md-3">
 
-      <!--movil-->
-      <section class="background-yellow-cellphone col-xs-12 cell-movil">
-        <div class="img-thumbnail img-thumbnail-color-movil">
-          <h4>La nueva app</h4>
-          <img class="iphone-6-plus-movil" src="assets/images/iPhone6PLus.png" alt="iPhone6Plus">
-        </div>
-        <h5>Llega a tu destino aun más rapido</h5>
-      </section>
-      <!--desktop-->
-      <section class="background-yellow-cellphone col-md-12 cell-desktop">
-        <div class="img-thumbnail img-thumbnail-color-desktop col-md-10">
-          <img class="col-md-4 iphone-6-plus-desktop" src="assets/images/iPhone6PLus.png" alt="iPhone6Plus">
-          <div class="col-md-5 download-the-new-app-tittle">
-            <h3>Descarga la nueva app</h3>
+        <!--boton de conviertete en conductor con modal-->
+        <button type="button" class="btn btn-default btn-conviertete" data-toggle="modal" data-target="#myModal">Conviértete en conductor</button>
+        <!-- Modal 2-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog  modal-md" role="document">
+            <div class="modal-content modal-content-two">
+              <div class="modal-body modal-body-2">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="btn btn-default btn-lg btn-block btn-block-cuenta">Ya tienes una cuenta?</button>
+                <p class="center">O CREA UNA CUENTA</p>
+                <form class="form-inline form-md-2">
+                  <div class="form-group">        
+                    <input type="email" class="form-nombre" placeholder="Nombre">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-nombre" placeholder="Apellido">
+                  </div>
+                </form>
+                <input type="text" class="form-control form-control-mdl-2" placeholder="Correo Electronico: ejemplo@correo.pe">
+                <input type="text" class="form-control form-control-mdl-2" placeholder="Teleéfono">
+                <input type="text" class="form-control form-control-mdl-2" placeholder="Contraseña">
+                <input type="text" class="form-control form-control-mdl-2" placeholder="Ciudad">
+                <input type="text" class="form-control form-control-mdl-2" placeholder="(opcional) Codigo de Invitación">
+                <div class="btn-group">
+                  <button class="btn btn-default btn-lg dropdown-toggle btn-nosotros" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cómo te enteraste de nosotros?<span class="caret"></span></button>
+                </div>
+                <button type="button" class="btn btn-default btn-lg btn-block btn-block-enviar">ENVIAR</button>
+              </div>
+            </div>
           </div>
-          <div class="col-md-5 download-the-new-app">
-            <p class="page">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-            <p class="page">Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir.</p>
-          </div>
-          
         </div>
-      </section>
+
+      </div>
+
+    </section>
+
+    <!--Imagen CELULAR-->
+
+    <!--movil-->
+    <section class="background-yellow-cellphone col-xs-12 cell-movil">
+      <div class="img-thumbnail img-thumbnail-color-movil">
+        <h4>La nueva app</h4>
+        <img class="iphone-6-plus-movil" src="assets/images/iPhone6PLus.png" alt="iPhone6Plus">
+      </div>
+      <h5>Llega a tu destino aun más rapido</h5>
+    </section>
+    <!--desktop-->
+    <section class="background-yellow-cellphone col-md-12 cell-desktop">
+      <div class="img-thumbnail img-thumbnail-color-desktop col-md-10">
+        <img class="col-md-4 iphone-6-plus-desktop" src="assets/images/iPhone6PLus.png" alt="iPhone6Plus">
+        <div class="col-md-5 download-the-new-app-tittle">
+          <h3>Descarga la nueva app</h3>
+        </div>
+        <div class="col-md-5 download-the-new-app">
+          <p class="page">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+          <p class="page">Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a donde ir.</p>
+        </div>
+      </div>
+    </section>
 
 
 
-        <script src="vendors/js/jquery-3.2.1.min.js"></script>
-        <script src="vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    </body>
-    </html>
+    <script src="vendors/js/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
