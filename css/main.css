@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -15,11 +14,13 @@
 .navbar-default {
     margin-bottom: 0;
 }
+
 .navbar-default .navbar-toggle {
     float: left;
     padding: 2% 2% 2% 2%;
     margin-left: 3%;
-}
+} 
+
 .navbar-default .navbar-brand {
     padding-left: 15%;
     color: #777;
@@ -207,18 +208,19 @@ h5 {
 
 /* section become a driver */
 
-.drive-section {
+.drive-section-1 {
     align-items: center;
     background-image: url("../assets/images/conduce.jpg");
-
     background-size: cover;
-    background-position: 0 50%;
+    box-sizing: content-box;
+    /* background-position: 0 150%; */
 }
 
 .white {
   color: #fff;
   background-color: #0000004d;
-  height: 100%;
+  padding-top: 4rem;
+  padding-bottom: 12rem;
 }
 
 .btn-color {
