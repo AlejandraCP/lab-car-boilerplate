@@ -173,6 +173,49 @@ h5 {
     .btn-warning-one {
         margin-bottom: 4%;
     }
+    
+    
+    /*modal 2*/
+    .modal-content-two {
+        background-color: #A9A9A9;
+        color: black;
+    }
+    .modal-body-2 {
+        margin-bottom: 4%;
+    }
+    .btn-block-cuenta {
+        margin-bottom: 2%;
+        background-color: black;
+        color: #CDDFDC;
+        border-color: black;
+    }
+    .form-md-2 {
+        margin-bottom: 2%;
+    }
+    .form-control-mdl-2 {
+        margin-bottom: 2%;
+    }
+    .btn-nosotros {
+        padding: 3% 49% 3% 55%;
+        margin-bottom: 4%;
+        background-color: #DDDDDD;
+    }
+    .crea-una-cuenta {
+        text-align: center;
+    }
+    .form-nombre {
+        height: 34px;
+        padding: 6px 107px 6px 12px;
+        color: #555;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .btn-block-enviar {
+        background-color: #5BC0DE;
+        border-color: #98ACB2;
+        color: white;
+    }
+
 
     /*cellphone*/
 
@@ -213,7 +256,6 @@ h5 {
     background-image: url("../assets/images/conduce.jpg");
     background-size: cover;
     box-sizing: content-box;
-    /* background-position: 0 150%; */
 }
 
 .white {
@@ -303,7 +345,7 @@ footer ul li {
   padding: 1.2rem;
 }
 
-footer ul li a {
+footer div ul li a {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
